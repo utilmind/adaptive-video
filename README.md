@@ -3,13 +3,13 @@ JavaScript allows to specify multiple sources of videos for different screen res
 
 <h1>Goal: <small>deliver smaller videos on smaller devices without preloading (without affecting the page load time)</small></h1>
   <p>This JavaScript allows to specify multiple sources of videos for different screen resolutions. The sources for different screen sizes can be specified as follows:</p>
-  <code>
+  <code><pre>
   &lt;div class="video-inside"
     data-src="./video/grillingshrimp.mp4"
     data-src-1808="./video/grillingshrimp2.mp4"
     data-src-1200="./video/grillingshrimp3.mp4"
     data-src-768="./video/grillingshrimp4.mp4"&gt;&lt;/div&gt;
-  </code>
+  </pre></code>
   
   <h2>Live demo: http://utilmind.com/demos/2019/adaptive-video/</h2>
 
