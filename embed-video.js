@@ -32,7 +32,7 @@ var embedVideo = {
           // console.log('hey '+me.pageWidth + ' < ' + curAttr + ' ' + (pageWidth < curAttr));
 
           if ((!fitSrc && isNaN(curAttr)) ||
-              (me.pageWidth < curAttr)) {
+              (me.pageWidth <= curAttr)) {
             fitSrc = atts[j].nodeName;
           }
         }
