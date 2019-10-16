@@ -1,5 +1,5 @@
 # adaptive-video
-JavaScript allows to specify multiple sources of videos for different screen resolutions
+JavaScript allows to specify multiple sources of videos for different screen resolutions.
 
 <h1>Goal: <small>deliver smaller videos on smaller devices without preloading (without affecting the page load time)</small></h1>
   <p>This JavaScript allows to specify multiple sources of videos for different screen resolutions. The sources for different screen sizes can be specified as follows:</p>
@@ -16,6 +16,6 @@ JavaScript allows to specify multiple sources of videos for different screen res
   <ol>
     <li>Getting the page resolution;</li>
     <li>Getting attributes of each embedded video to find the source which best fits;</li>
-    <li>Displaying the video which fits best;</li>
-    <li>Hooking window.resize event to recalculate all embedded videos in a moment after resize (with little delay).</li>
+    <li>Displaying the video which fits best for current page sizes;</li>
+    <li>Hooking window.resize event to recalculate all embedded videos in a moment after resize (with little delay). That's making videos responsive to resize of the browser window.</li>
   </ol>
